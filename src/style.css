@@ -1,0 +1,131 @@
+html,
+body {
+    height: 100%;
+}
+
+body{
+    margin-top: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.names-form{
+    margin-top: 10px;
+}
+
+.names-form p{
+    margin-top: 10px;
+    margin: 5px;
+}
+
+.player-confs{
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    max-width: 10vw;
+    gap: 3px 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.grid-element,
+.square {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.square {
+    border: 1px solid #000000;
+}
+
+.playing-header{
+    min-height: 18vh;
+}
+
+.play-result{
+    text-align: center;
+}
+
+.placing-grid,
+.shadow-container,
+.container,
+.shadow-container2,
+.container2 {
+    min-width: 330px;
+    max-width: 300px;
+
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+}
+
+.board-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.water {
+    background-color: aqua;
+}
+
+.hit {
+    background-color: orange;
+}
+
+.ship {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgb(0, 50, 180, 0.3);
+    border: 2px solid rgb(34, 0, 255);
+    /* pointer-events: none; */
+    z-index: 1;
+}
+
+.selected {
+    background-color: rgb(173, 255, 47, 0.3);
+    border-color: rgb(141, 204, 48);
+}
+
+.lock {
+    opacity: 30%;
+    pointer-events: none;
+}
+
+.overlay {
+    font-size: xx-large;
+    color: white;
+    position: fixed;
+    /* Stay in place even when scrolling */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    /* 100% of the viewport width */
+    height: 100vh;
+    /* 100% of the viewport height */
+    background-color: rgba(0, 0, 0, 1);
+    /* Semi-transparent black */
+    z-index: 9999;
+    /* Ensure it sits on top of everything else */
+
+    /* Optional: Center content inside the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}

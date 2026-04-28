@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship</title>
+</head>
+
+<body>
+    <div class="names-form">
+        <form method="dialog" class="player-confs">
+            <label for="player1">Player 1 name: </label>
+            <input type="text" name="player1" id="player1" required value="Player 1">
+            <label for="player2">Player 2 name: </label>
+            <input type="text" name="player2" id="player2" required value="Player 2">
+            <input id="btn-got-to-placing" type="submit" value="Start Placing">
+        </form>
+        <p>Or</p>
+        <input class="btn-computer" type="button" value="Play Against Computer">
+    </div>
+    <div class="placing-stage-head hidden">
+        <p>
+            Instructions:<br>
+            Moving ship: Click on ship and then click on the new locations. Its also possible to drag the ships.<br>
+            Rotating: To rotate, select the ship and then press 'r'. 
+        </p>
+        <input class="btn-randomize" type="button" value="Randomize">
+        <button class="btn-start hidden">Start Game</button>
+        <button class="btn-placing">Finish Placing</button>
+    </div>
+    <div class="overlay hidden">
+        <p>Pass the board to the next player...</p>
+    </div>
+    <div class="playing-header hidden">
+        <p class="who-playing hidden"></p>
+        <input class="btn-restart hidden" type="button" value="Restart Game">
+        <p class="play-result hidden"></p>
+    </div>
+    <div class="layout">
+        <div class="placing-grid hidden"></div>
+        <div class="board-space hidden">
+            <div class="shadow-container"></div>
+            <p>Your board</p>
+        </div>
+        <div class="board-space hidden">
+            <div class="container"></div>
+            <p>Opponent board</p>
+        </div>
+
+
+
+    </div>
+    </div>
+
+</body>
+
+</html>

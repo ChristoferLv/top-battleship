@@ -1,0 +1,33 @@
+{
+  "name": "top-battleship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristoferLv/top-battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ChristoferLv/top-battleship/issues"
+  },
+  "homepage": "https://github.com/ChristoferLv/top-battleship#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.2",
+    "css-loader": "^7.1.4",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.6",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}

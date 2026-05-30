@@ -316,7 +316,7 @@ class GameBoard {
             const pos = extractXY(i);
             square.classList.add("square");
             square.id = i;
-            square.innerText = i;
+            // square.innerText = i;
             square.addEventListener("click", this.#calculateNewPosition.bind(this));
             square.addEventListener("dragover", (e) => { e.preventDefault(); })
             square.addEventListener("drop", this.#positionFromDrag.bind(this));
@@ -342,7 +342,7 @@ class GameBoard {
             if (status == STATUS.HIT)
                 square.classList.add("hit");
             square.id = i;
-            square.innerText = i;
+            // square.innerText = i;
             baseDiv.append(square);
         }
     }
@@ -400,7 +400,7 @@ class GameBoard {
             if (status == STATUS.HIT)
                 square.classList.add("hit");
             square.id = i;
-            square.innerText = i;
+            // square.innerText = i;
             if (!this.#preparingPhase)
                 square.addEventListener("click", (e) => { this.makeAttack(e.target.id) });
             baseDiv.append(square);

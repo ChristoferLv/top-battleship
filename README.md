@@ -52,6 +52,10 @@ A browser-based Battleship implementation with a placement stage and turn-based 
 - Webpack
 - Jest
 
+## Visualization
+
+<img width="1920" height="919" alt="battleship_screenshot" src="https://github.com/user-attachments/assets/de07592d-0bfa-4f0d-b7a1-b78ff5adf5c9" />
+
 ---
 
 Project built following: [The Odin Project - Battleship](https://www.theodinproject.com/lessons/node-path-javascript-battleship)

@@ -1,6 +1,6 @@
 # Battleship
 
-Battleship game project developed as part of the JavaScript path from [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-battleship), focused on game logic, DOM interaction, and modular JavaScript.
+Battleship game project developed as part of the JavaScript path of [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), focused on game logic, DOM interaction, and modular JavaScript.
 
 ## Project Objective
 
